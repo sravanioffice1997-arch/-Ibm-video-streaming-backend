@@ -146,5 +146,3 @@ to the wrong binary path for your OS; on Windows it should just be
   IBM architecture) isn't implemented here, but `prePublish`/`donePublish` in
   `mediaServer.js` are the natural hook points to add it.
 
-## License
-MIT (or your preferred license — update this section before publishing).
