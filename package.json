@@ -1,0 +1,19 @@
+{
+  "name": "ibm-style-live-streaming-backend",
+  "version": "1.0.0",
+  "description": "Express + Node-Media-Server backend demonstrating an IBM-Video-Streaming-style live pipeline: RTMP ingest -> FFmpeg transcode -> adaptive HLS -> REST API for stream management and playback.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-media-server": "^2.6.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
